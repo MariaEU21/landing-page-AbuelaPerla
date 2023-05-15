@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abuela Perla - Panadería y Rotisería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <h1><img src="img/logo.png" alt="Logo de Abuela Perla" id="logo"></h1>
+            <a href="#Home">🏠 Home</a>
+            <a href="#panaderia">🥐 Panadería</a>
+            <a href="#rotiseria">🍔 Rotisería</a>
+            <a href="#Contactos">📞 Contacto</a>
+            <a href="#Ubicación">📍 Ubicación</a>
+        </nav>
+        <div id="menu-toggle"></div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <!-- Contenido de la página de inicio aquí -->
+        </section>
+
+        <section id="panaderia">
+            <h2 id="panaderia"><span class="fondo-negro">Panadería</span></h2>
+            <p class="filtro-titulo">Filtrar opciones de productos:</p>
+            <div id="filtros-panaderia" class="filtros"></div>
+            <div id="productos-panaderia" class="productos">
+                <!-- Aquí se muestran los productos de panadería -->
+            </div>
+        </section>
+
+        <section id="rotiseria" class="margen-superior">
+            <h2 id="rotiseria"><span class="fondo-negro">Rotisería</span></h2>
+            <p class="filtro-titulo">Filtrar opciones de productos:</p>
+            <div id="filtros-rotiseria" class="filtros"></div>
+            <div id="productos-rotiseria" class="productos">
+                <!-- Aquí se muestran los productos de rotisería -->
+            </div>
+        </section>
+
+        <section id="Contactos" class="margen-superior">
+            <!-- Contenido de la página de contacto aquí -->
+            <div id="contacto-info">
+                <!-- Contenido de información de contacto y formulario aquí -->
+                <h3>Información de contacto</h3>
+                        <p>📞 Teléfono: +54 (0343) 4983135</p>
+                        <p>📱 WhatsApp: +54 9 3434 51-5370</p>
+                        <p>📧 Email: info@tudominio.com</p>
+                        <h3>Envíanos tu consulta</h3>
+                        <form action="enviar-consulta.php" method="post">
+                            <label for="nombre">Nombre y Apellido:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" required></textarea>
+                            <button id="btn-consulta">Enviar Consulta</button>
+                        </form>
+            
+            </div>
+        </section>
+
+        <section id="Ubicación" class="margen-superior">
+            <h2><span class="fondo-negro">Ubicación</span></h2>
+            <div class="card ubicacion-card">
+                <div class="card-imagen">
+                    <img src="img/panaderia.jpg" alt="Local Comercial">
+                </div>
+                <div class="card-detalles">
+                    <p class="direccion">Esquina Colon y Dasso, Diamante, Entre Ríos, Argentina</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="margen-superior">
+        <p>&copy; Abuela Perla, 2023</p>
+        <div id="redes-sociales">
+            <a href="https://www.instagram.com/panaderiaabuela/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063585817913" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://wa.me/c/5493434515370" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.manzanzani.abuela_perla" target="_blank"><img src="img/playstore.png" alt="Play Store"></a>
+            </div>
+            </footer>
+            <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+            <script src="main.js"></script>
+        </body>
+        </html>
+ 

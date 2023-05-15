@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/pizarronestampado.png');
+    background-repeat: repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header nav img {
+    width: 400px;
+}
+
+header nav {
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #dddddd;
+}
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.filtro-titulo {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.fondo-negro {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 60px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#contacto-info {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contacto-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#contacto-info p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#contacto-info form {
+    margin-top: 20px;
+}
+
+#contacto-info label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+#contacto-info input,
+#contacto-info textarea {
+    width: 100%;
+    padding: 10px;
+    font-size:16px;
+    margin-bottom: 10px;
+}
+
+#btn-consulta {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#btn-consulta:hover {
+    background-color: #222222;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#btn-consulta:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.margen-superior {
+    margin-top: 50px;
+}
+
+.producto h3,
+.producto p {
+    text-align: center;
+}
+
+.producto .nombre-descripcion-producto {
+    margin-top: 15px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4), 0 14px 28px 0 rgba(0, 0, 0, 0.35);
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    flex: 1 0 30%;
+    margin: 1em;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4), 0 14px 28px 0 rgba(0, 0, 0, 0.35);
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filtros .filtro {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .filtros .filtro:hover {
+    background-color: #d8d5d5;
+    color: #000000;
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+
+#ubicacion {
+    text-align: center;
+}
+
+.ubicacion-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ubicacion-card .card-imagen {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.ubicacion-card .card-imagen img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.foto {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+}
+
+.direccion {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer #redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+footer #redes-sociales a img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilos para tabletas y pantallas grandes */
+@media only screen and (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+
+    header nav img {
+        width: 400px;
+    }
+}
+
+/* Estilos para celulares y tabletas */
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('img/pizarronestampado.png');
+        background-repeat: repeat;
+        background-position: center;
+        color: #ffffff;
+    }
+
+    header {
+        background-image: url('img/logo.png'); /* Establecer la imagen "logo.png" como fondo del header */
+        background-size: contain; /* Ajustar el tamaño de la imagen para que quepa dentro del header */
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    header nav {
+        display: none; /* Ocultar el menú de navegación en pantallas pequeñas */
+    }
+
+    main {
+        width: 100%;
+        min-height: (100vh - 80px);
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    /* Agrega los estilos adicionales que desees para pantallas pequeñas */
+}
+
+

@@ -1,0 +1,109 @@
+{
+    "productos": [
+      {
+        "nombre": "Pan de campo",
+        "imagen": "img/pan_de_campo.jpg",
+        "descripcion": "Pan horneado diariamente en casa. Corteza crujiente y suave interior.",
+        "categoria": "Panadería",
+        "subcategoria": "Salados"
+      },
+      {
+        "nombre": "Medialunas",
+        "imagen": "img/medialunas.jpg",
+        "descripcion": "Medialunas dulces irresistibles. Textura suave y esponjosa con toque de azúcar.",
+        "categoria": "Panadería",
+        "subcategoria": "Dulces"
+      },
+      {
+        "nombre": "Churros",
+        "imagen": "img/Churros.jpg",
+        "descripcion": "Churros crujientes y dorados. Espolvoreados con un toque de azúcar.",
+        "categoria": "Panadería",
+        "subcategoria": "Dulces"
+      },
+      {
+        "nombre": "Selva Negra",
+        "imagen": "img/selva-negra.jpg",
+        "descripcion": "Torta Selva Negra. Capas de bizcocho, cerezas, y nata montada con virutas de chocolate.",
+        "categoria": "Panadería",
+        "subcategoria": "Pasteles"
+      },
+      {
+        "nombre": "Cheesecake",
+        "imagen": "img/chessecake.jpg",
+        "descripcion": "Cheesecake suave y cremoso. Base crujiente de galleta y topping de frutas.",
+        "categoria": "Panadería",
+        "subcategoria": "Pasteles"
+      },
+      {
+        "nombre": "Chaja",
+        "imagen": "img/chaja.jpg",
+        "descripcion": "Torta Chaja. Capas de bizcocho, duraznos frescos, merengue y deliciosa crema.",
+        "categoria": "Panadería",
+        "subcategoria": "Pasteles"
+      },
+      {
+        "nombre": "Hamburguesa",
+        "imagen": "img/hamburguesa.jpg",
+        "descripcion": "Hamburguesa jugosa y sabrosa. Carne de res de primera calidad y salsa especial.",
+        "categoria": "Rotisería",
+        "subcategoria": "Hamburguesas"
+      },
+      {
+        "nombre": "Pizza",
+        "imagen": "img/pizza.jpg",
+        "descripcion": "Pizza con masa fina y crujiente. Cubierta con queso derretido y tus ingredientes favoritos.",
+        "categoria": "Rotisería",
+        "subcategoria": "Pizzas"
+      },
+      {
+        "nombre": "Papas Fritas",
+        "imagen": "img/papas.jpg",
+        "descripcion": "Papas fritas doradas y crujientes. Acompañamiento perfecto para cualquier plato.",
+        "categoria": "Rotisería",
+        "subcategoria": "Papas Fritas"
+      },
+      {
+        "nombre": "Empanadas de Carne",
+        "imagen": "img/empanadasc.jpg",
+        "descripcion": "Empanadas de carne jugosas y doradas. Rellenas de carne picada, cebolla, pimiento y especias.",
+        "categoria": "Rotisería",
+        "subcategoria": "Empanadas"
+      },
+      {
+        "nombre": "Sandwichs de Migas",
+        "imagen": "img/miga.jpg",
+        "descripcion": "Sándwiches de migas suaves y esponjosos. Rellenos con ingredientes frescos y sabrosos.",
+        "categoria": "Rotisería",
+        "subcategoria": "Sandwichs"
+        },
+        {
+        "nombre": "Lomitos",
+        "imagen": "img/lomitos.jpg",
+        "descripcion": "Sándwich de lomo clásico y jugoso. Servido en pan crujiente con lechuga y tomate.",
+        "categoria": "Rotisería",
+        "subcategoria": "Lomitos"
+        },
+        {
+        "nombre": "Sandwich de Milanesa",
+        "imagen": "img/milanesa.jpg",
+        "descripcion": "Sándwich de milanesa crujiente. Acompañado de lechuga, tomate y mayonesa.",
+        "categoria": "Rotisería",
+        "subcategoria": "Milanesas"
+        },
+        {
+        "nombre": "Patynesa",
+        "imagen": "img/patynesas.jpg",
+        "descripcion": "Sándwich de patynesa irresistible. Milanesa de pollo con porción de patatas fritas.",
+        "categoria": "Rotisería",
+        "subcategoria": "Patynesas"
+        },
+        {
+        "nombre": "Empanadas de Jamón y Queso",
+        "imagen": "img/empanadasjyq.jpg",
+        "descripcion": "Empanadas de jamón y queso deliciosas. Relleno con generosas porciones de jamón y queso derretido.",
+        "categoria": "Rotisería",
+        "subcategoria": "Empanadas"
+        }
+        ]
+        }
